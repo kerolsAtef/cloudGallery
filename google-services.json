@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461086956394",
+    "firebase_url": "https://cloud-gallery-40fbd.firebaseio.com",
+    "project_id": "cloud-gallery-40fbd",
+    "storage_bucket": "cloud-gallery-40fbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461086956394:android:100b7ec260a1922b91e313",
+        "android_client_info": {
+          "package_name": "com.kerols2020.cloudgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461086956394-lvtuk13ir4u9mff33ies8fp6skjogvsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZv_OtXa0PLlpuNFuJuRkZEAAENRpWSzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461086956394-lvtuk13ir4u9mff33ies8fp6skjogvsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

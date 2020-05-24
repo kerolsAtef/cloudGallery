@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddImageActivity"
+    android:background="#000"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/addedImage"
+        android:visibility="gone"
+        />
+    <EditText
+        android:textColorHint="#f6f6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addedImage"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textColor="@color/Primary"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold"
+        android:id="@+id/addedDescription"
+        android:textAllCaps="false"
+        android:hint="Enter name of the image "
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/addedDescription"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        >
+    <Button
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentLeft="true"
+        android:background="#000"
+        android:text="Save"
+        android:textColor="@color/Primary"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:id="@+id/save"
+
+        />
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:id="@+id/add_image_from_gallery"
+            android:src="@drawable/addimage"
+            />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
